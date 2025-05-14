@@ -4,7 +4,7 @@ module.exports = [
   {
     name: 'strapi::cors',
     config: {
-      origin: ['http://localhost:3000'], 
+      origin: ['https://aegiswb.netlify.app'], 
       methods: ['GET', 'POST', 'PUT', 'DELETE'],
       headers: '*',
     },
