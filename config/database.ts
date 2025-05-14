@@ -31,6 +31,8 @@ export default ({ env }) => {
           database: env('DATABASE_NAME'),
           user: env('DATABASE_USERNAME'),
           password: env('DATABASE_PASSWORD'),
+          connectionString: env('DATABASE_URL'),
+
           ssl: { rejectUnauthorized: false },
           schema: env('DATABASE_SCHEMA', 'public'),
         },
